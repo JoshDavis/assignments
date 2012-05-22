@@ -1,0 +1,34 @@
+html {
+	border-top: 7px solid #F64;
+}
+
+
+body {
+	margin-top: 3em;
+	width: 250px;
+	margin: 0 auto;
+	background-color: #345678;
+}
+
+form {
+margin-top: 3em;
+	width:300px;
+	clear:both;
+	background-color: #F64;
+	padding: 1em;
+	border-radius: 1em;
+	border: 1px solid #FFF;
+}
+
+label {
+	margin-top: 2em;
+}
+
+strong {
+	margin-top: 4em;
+	font-size: 1.5em;
+}
+
+button {
+	float: right;
+}
