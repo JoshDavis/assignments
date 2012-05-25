@@ -11,7 +11,8 @@ body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 1.32em;
+	text-align: center;
 	color:#F00;
 	font-family:Arial, Helvetica, sans-serif;
 	padding: 10px;
