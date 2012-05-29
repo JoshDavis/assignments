@@ -16,7 +16,7 @@ require_once 'includes/form-processor.php';
 
 <body>
 <?php if ($completed) : ?>
-<strong>Thanks for giving us some feedback!</strong>
+<strong class="thank-you">Thanks for giving us some feedback! <a href="http://imm.edumedia.ca">Go Back to Edumedia</a> </strong>
 <?php else : ?>
 
 <h1>Give us some Feedback!</h1>
