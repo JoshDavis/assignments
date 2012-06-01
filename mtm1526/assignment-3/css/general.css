@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: normal 100%/1.5 sans-serif;
+	background-color:#FF8000;
+	margin:0;
+	padding:0;
+}
+
+section {
+	background-color:#1f1958;
+	border-radius: 1em;
+	width: 25%;
+	padding: 1em;
+	margin: 0 auto;
+	margin-top: -2em;
+	border: 2px inset #FFF;
+}
+
+#container {
+	background-color:#000;
+	margin: 0;
+	color:#FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 0;
+	height: 200px;
+		
+}
+
+h1 {
+	padding:0;
+	margin:0;
+	padding-top:2em;
+}
+
+label {
+	color:#FFF;
+}
+
+button {
+	background-color:#FF8000;
+	color:#FFFFFF;
+	padding: 3px;
+	border-radius:0.5em;
+}
+	
+	
+#circle {
+	height: 200px;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+	position: absolute;
+	top: 33.5%;
+	width: 200px;
+
+	background-color: #bad600;
+	border: 10px solid #000;
+	border-radius: 110px;
+
+	font-size: 8em;
+	font-weight: bold;
+	line-height: 175px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#hide-show {
+	float: right;
+}
