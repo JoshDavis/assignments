@@ -21,13 +21,14 @@ $results = $sql->fetchAll();
 
 <body>
 		<?php foreach ($results as $dino) : ?>
-		<h2><?php echo $dino['dino_name'];?></h2>
+		<h2><a href="single.php?id=<?php echo $dino['id'];?>">
+		<?php echo $dino['dino_name']; ?></a></h2>
         	<dl>
-            	<dt>Loves Meat</dt>
-            	<dd><?php echo $dino['loves_meat'];?></dd>
-                
-                <dt>In Jurassic Park</dt>
-                <dd><?php echo $dino['in_jurassic_park'];?></dd>
+            <dt>Loves Meat</dt>
+            <dd><?php echo $dino['loves_meat'];?></dd>
+            
+            <dt>In Jurassic Park</dt>
+            <dd><?php echo $dino['in_jurassic_park'];?></dd>
         	</dl>
         <?php endforeach; ?>
 
