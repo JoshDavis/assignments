@@ -2,7 +2,19 @@
 
 require_once 'includes/db.php';
 
+$sql = $db->query('
+	SELECT id, dino_name, loves_meat, in_jurassic_park
+	FROM dinosaurs
+	ORDER BY dino_name ASC
+
+
+');
+
+$results = $sql->fetchAll();
+
 ?>
+
+
 
 
 <!DOCTYPE HTML>
@@ -13,20 +25,16 @@ require_once 'includes/db.php';
 </head>
 
 <body>
-
-		<h2>Velociraptors</h2>
+		<?php foreach ($results as $dino) : ?>
+		<h2><?php echo $dino['dino_name'];?></h2>
         	<dl>
             	<dt>Loves Meat</dt>
-                <dt>1</dt>
+            	<dd><?php echo $dino['loves_meat'];?></dd>
+                
                 <dt>In Jurassic Park</dt>
-                <dt>1</dt>
-            
-            
-            
-            
-            
-            
-            </dl>
+                <dd><?php echo $dino['in_jurassic_park'];?></dd>
+        	</dl>
+        <?php endforeach; ?>
 
 
 
