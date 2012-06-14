@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	color: #F00;
+}
+
+.container {
+	background-color:#CFD2FE;
+	padding: 10px;
+	border-radius: 10px;
+	width: 50%;
+	margin: 0 auto;
+}

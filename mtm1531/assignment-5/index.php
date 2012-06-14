@@ -23,17 +23,19 @@ $results = $sql->fetchAll();
 <body>
 
 	<h1>Movie Database</h1>
+	<div class="container">
 		<?php foreach ($results as $movie) : ?>
 		<h2><a href="single.php?id=<?php echo $movie['id'];?>">
 		<?php echo $movie['movie_title']; ?></a></h2>
-        	<dl>
+        <dl>
             <dt>Director</dt>
             <dd><?php echo $movie['director'];?></dd>
             
             <dt>Release Date</dt>
             <dd><?php echo $movie['release_date'];?></dd>
-        	</dl>
-       
+        </dl>
+            
+       </div>
         <?php endforeach; ?>
 
 

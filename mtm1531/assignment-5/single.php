@@ -41,6 +41,7 @@ $results = $sql->fetch();
             <dt>Director</dt>
             <dd><?php echo $results['director'];?></dd>
     </dl>
+
     
     <a href="delete.php?id=<?php echo $id; ?>">Delete Movie</a>
     <a href="index.php">Go back to Movie Database</a>
