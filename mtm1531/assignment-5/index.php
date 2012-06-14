@@ -3,7 +3,7 @@
 require_once 'includes/db.php';
 
 $sql = $db->query('
-	SELECT id, movie_title, director, release_date
+	SELECT id, movie_title, release_date, director
 	FROM movies
 	ORDER BY movie_title ASC
 

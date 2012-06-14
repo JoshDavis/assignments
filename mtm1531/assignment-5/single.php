@@ -9,7 +9,7 @@ $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 //We can create placeholders and later fill them with some content.
 //Prepare is used to protect against SQL injection attacks.
 $sql = $db->prepare('
-SELECT id, movie_title, director, release_date
+SELECT id, movie_title, release_date, director
 FROM movies
 WHERE id = :id
 ');
