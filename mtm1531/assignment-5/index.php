@@ -33,6 +33,7 @@ $results = $sql->fetchAll();
             <dt>Release Date</dt>
             <dd><?php echo $movie['release_date'];?></dd>
         	</dl>
+       
         <?php endforeach; ?>
 
 

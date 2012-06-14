@@ -27,7 +27,7 @@ $results = $sql->fetch();
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $results ['movie_title'];?>&middot; Movie Database</title>
+    <title><?php echo $results ['movie_title'];?>&middot; in Movie Database</title>
     <link href="css/general.css" rel="stylesheet">
 </head>
 
@@ -35,11 +35,11 @@ $results = $sql->fetch();
 
 	<h1><?php echo $results['movie_title']; ?></h1>
     <dl>
-    	    <dt>Director</dt>
-            <dd><?php echo $results['director'];?></dd>
-            
-            <dt>Release Date</dt>
+    	    <dt>Release Date</dt>
             <dd><?php echo $results['release_date'];?></dd>
+            
+            <dt>Director</dt>
+            <dd><?php echo $results['director'];?></dd>
     </dl>
     
     <a href="delete.php?id=<?php echo $id; ?>">Delete Movie</a>
