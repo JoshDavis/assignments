@@ -27,7 +27,7 @@ $results = $sql->fetch();
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $results ['movie_title'];?>&middot; Movie Date Base</title>
+    <title><?php echo $results ['movie_title'];?>&middot; Movie Database</title>
     <link href="css/general.css" rel="stylesheet">
 </head>
 
@@ -38,7 +38,7 @@ $results = $sql->fetch();
     	    <dt>Director</dt>
             <dd><?php echo $results['director'];?></dd>
             
-            <dt>In Jurassic Park</dt>
+            <dt>Release Date</dt>
             <dd><?php echo $results['release_date'];?></dd>
     </dl>
     
