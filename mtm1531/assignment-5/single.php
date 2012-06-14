@@ -42,10 +42,10 @@ $results = $sql->fetch();
             <dd><?php echo $results['director'];?></dd>
     </dl>
 
-    
-    <a href="delete.php?id=<?php echo $id; ?>">Delete Movie</a>
+    <center>
+    <a href="delete.php?id=<?php echo $id; ?>">Delete Movie</a></br></br>
     <a href="index.php">Go back to Movie Database</a>
-
+	</center>
 	
 
 
