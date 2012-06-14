@@ -35,9 +35,9 @@ $results = $sql->fetchAll();
             <dd><?php echo $movie['release_date'];?></dd>
         </dl>
             
-       </div>
+       
         <?php endforeach; ?>
-
+</div>
 
 
 </body>

@@ -1,20 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	border-top: 7px solid #F00;
+}
 
 body {
 	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FFC4C4;
+	
 }
 
 h1 {
 	font-size: 2em;
 	color: #F00;
+	text-align: center;
 }
 
 .container {
 	background-color:#CFD2FE;
 	padding: 10px;
 	border-radius: 10px;
-	width: 50%;
+	width: 20%;
 	margin: 0 auto;
+	border: 1px solid #F00;
+}
+
+h2 {
+	background-color:#FFFFFF;
+	padding:5px;
+	border-radius: 15px;
+	border: 1px solid #F00;
+}
+
+dt {
+	color:#F00;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: none;
+} 
+
+dl {
+	text-align: center;
 }
