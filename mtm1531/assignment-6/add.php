@@ -5,6 +5,8 @@ $release_date = filter_input(INPUT_POST, "release_date", FILTER_SANITIZE_STRING)
 $director = filter_input(INPUT_POST, "director", FILTER_SANITIZE_STRING);
 $errors = array();
 
+require_once 'includes/db.php';
+
 
 if ($_SERVER['REQUEST_METHOD']== 'POST'){
 	 if (strlen($movie_title) < 1 || strlen ($movie_title) > 256) {
@@ -49,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD']== 'POST'){
 	
    	<h1>Add New Movie</h1>
 		
-        <form method="post" action="assignment-6/add.php">
+        <form method="post" action="add.php">
     
     	<div>
         	<label for="movie_title">Movie Name<?php if(isset($errors['movie_title'])) : ?><strong class="error">Is Required.</strong><?php endif;?>
