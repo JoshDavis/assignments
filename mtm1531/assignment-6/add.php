@@ -53,6 +53,7 @@ if ($_SERVER['REQUEST_METHOD']== 'POST'){
     
     	<div>
         	<label for="movie_title">Movie Name<?php if(isset($errors['movie_title'])) : ?><strong class="error">Is Required.</strong><?php endif;?>
+        	 <input id="movie_title" name="movie_title" required value="<?php echo $movie_title; ?>">
         </div>
     	
         

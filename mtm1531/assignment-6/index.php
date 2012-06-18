@@ -37,6 +37,7 @@ $results = $sql->fetchAll();
             
        
         <?php endforeach; ?>
+        <p><a href="add.php">Add a Movie</a></p>
 </div>
 
 
