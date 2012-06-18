@@ -49,17 +49,16 @@ if ($_SERVER['REQUEST_METHOD']== 'POST'){
 	
    	<h1>Add New Movie</h1>
 		
-        <form method="post" action="../assignment-5/add.php">
+        <form method="post" action="assignment-6/add.php">
     
     	<div>
-        	<label for="movie_title">Movie Name<?php if(isset($errors['movie_title'])) : ?><strong class="error">Is Required.</strong><?php endif;?></label>
-            <input id="movie_title" name="movie_title" required value="<?php echo $movie_title; ?>">
+        	<label for="movie_title">Movie Name<?php if(isset($errors['movie_title'])) : ?><strong class="error">Is Required.</strong><?php endif;?>
         </div>
     	
         
         <div>
         	<label for="release_date">Release Date<?php if(isset($errors['release_date'])) : ?><strong class="error">Is Required.</strong><?php endif;?></label>
-            <input id="release_date" name="release_Date" required value="<?php echo $release_date; ?>">
+            <input id="release_date" name="release_date" required value="<?php echo $release_date; ?>">
         </div>
         
         <div>
@@ -70,6 +69,7 @@ if ($_SERVER['REQUEST_METHOD']== 'POST'){
 
         
         <button type="submit">Add</button>
+        <p><a href="index.php">Go back</a></p>
     
     
     
