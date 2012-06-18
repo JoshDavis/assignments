@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	border-top: 7px solid #F00;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FFC4C4;
+	
+}
+
+h1 {
+	font-size: 2em;
+	color: #F00;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 0.5px #fafaff;
+	filter: dropshadow(color=#fafaff, offx=1, offy=1);
+	text-transform: uppercase;
+}
+
+.container {
+	background-color:#FFF;
+	padding: 10px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	-webkit-box-shadow: 6px 6px 4px 3px rgba(100, 0, 0, 0.5);
+	box-shadow: 6px 6px 4px 3px rgba(100, 0, 0, 0.5);
+	-ms-box-shadow: 6px 6px 4px 3px rgba(100, 0, 0, 0.5);
+	-o-box-shadow: 6px 6px 4px 3px rgba(100, 0, 0, 0.5);
+}
+
+h2 {
+	background-color:#FFFFFF;
+	padding:5px;
+	border-radius: 15px;
+	color:#000;
+	text-transform: uppercase;
+
+}
+
+
+dt {
+	color:#F00;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: none;
+} 
+
+dl {
+	text-align: center;
+}
