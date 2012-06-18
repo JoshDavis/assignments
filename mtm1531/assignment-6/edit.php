@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD']== 'POST'){
 	 if (strlen($movie_title) < 1 || strlen ($movie_title) > 256) {
 		 $errors['movie_title'] = true;
 	 }
-	 if (strlen($release_date) <1 || strlen ($release_date) > 10) {
+	 if(strlen($release_date) != 10) {
 		$errors['release_date'] = true; 
 	 }
 	 
