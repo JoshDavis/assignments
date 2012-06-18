@@ -43,6 +43,7 @@ $results = $sql->fetch();
     </dl>
 
     <center>
+    <a href="edit.php?id=<?php echo $id; ?>">Edit</a>
     <a href="delete.php?id=<?php echo $id; ?>">Delete Movie</a></br></br>
     <a href="index.php">Go back to Movie Database</a>
 	</center>
