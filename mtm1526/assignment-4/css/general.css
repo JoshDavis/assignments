@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+
+	background-color: #FC9;
+
+	color: #000;
+	font: normal 100%/1.375 sans-serif;
+}
+
+body {
+	width:25em;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+li {
+	display: inline;
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a,
+a:link,
+a:visited {
+	display: inline-block;
+	border-radius: 4px 4px 0 0;
+	background-color: #FC9;
+	border: 1px solid #000;
+	border-bottom: none;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color:#fff;	
+}
+
+.current a,
+.current a:link,
+.current a:visited {
+	background-color: #FFF;
+	color:#000000;
+}
+
+article {
+	background-color:#FFF;
+	padding: 1em;
+	border-radius: 0 1em 1em 1em;
+	border: 1px solid #000;
+	border-top: none;
+	
+}
